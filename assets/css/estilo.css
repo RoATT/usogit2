@@ -3,3 +3,125 @@
     padding: 0;
     box-sizing: border-box;
 }
+h1{
+    text-align: center;
+    color: darkslategrey;
+    background-color: rgba(242, 245, 241, 0.973);
+
+
+
+    font-family: sans-serif,monospace;
+    font-size:400% bold;
+    font-variant: small-caps;
+    font-weight: bolder;
+}
+body{
+    margin: 0;
+    background-color: rgba(236, 240, 199, 0.425);
+    position: relative;
+    padding-bottom: 20em;
+    min-height: 100vh;
+}
+h2{
+    text-align: center;
+    font-family: sans-serif,monospace;
+    font-size:400% bold;
+    font-variant: small-caps;
+    font-weight: bolder;
+    color: darkolivegreen;
+}
+
+table{margin-right:auto;
+    margin-left:auto;
+} 
+
+
+p{
+    color: darkslategray;
+    font-family: sans-serif,monospace;
+    text-align: justify;
+    background-color: rgba(246, 248, 250, 0.973)
+}
+a{
+    text-align: justify;
+    font-family: sans-serif,monospace;
+    font-size:400% bold;
+    font-variant: small-caps;
+    font-weight: bolder;
+}
+nav{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: sans-serif,monospace;
+    font-size:400% bold;
+    font-variant: small-caps;
+    font-weight: bolder;
+}
+
+.container{
+    display: flex;
+    height: auto;
+    width: auto;
+    box-shadow: 0 0 20px;
+    margin-top: 300px;
+
+    margin-bottom: 150px;
+}
+.info{
+    background-image:url(assets/imagenes/golf-2704608_1280.jpg);
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding: 150px  50px;
+    width: 10px; height: 10px;
+}       
+
+.form{
+    font-family: sans-serif,monospace;
+    color: darkolivegreen; 
+} .label{
+    font-family: sans-serif,monospace;
+    color: darkolivegreen;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}  
+.box{
+    border: 0;
+    background-color: darkgrey;
+    padding: 15px;
+    margin-bottom: 25px;
+    outline: none;
+}
+
+.textarea {
+    font-family:sans-serif,monospace;
+    border: none;
+    padding: 0 10px;
+    margin: 0;
+    width: 80%;
+}
+
+
+.footer{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: sans-serif,monospace;
+    background-color: darkslategrey;
+    padding: 40px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.footer-row{
+display: flex;
+flex-wrap: wrap
+}
+.social-link h4{
+    font-size: 40px;
+    display: inline-block;
+}  
+.social-link{ 
+    display: inline;
+    min-height: 40px;
+    width: 40px;
+}
