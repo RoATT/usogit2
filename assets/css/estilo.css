@@ -7,7 +7,7 @@ h1{
     text-align: center;
     color: darkslategrey;
     background-color: rgba(242, 245, 241, 0.973);
-
+    
 
 
     font-family: sans-serif,monospace;
@@ -15,6 +15,14 @@ h1{
     font-variant: small-caps;
     font-weight: bolder;
 }
+main{
+    height: calc(100vh - 80px);
+    background-image: url(img);
+    background-size: cover;
+    background-position: left;
+    color: #fff;
+}
+.conta
 body{
     margin: 0;
     background-color: rgba(236, 240, 199, 0.425);
@@ -124,4 +132,19 @@ flex-wrap: wrap
     display: inline;
     min-height: 40px;
     width: 40px;
+}
+.what{
+    height: 40px;
+    width: 40px;
+    background-color:  rgb(72, 85, 79);
+    color: #fff;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 40px;
+    border-radius: 50%;
+    text-shadow: 0 0 5px #000;
+    box-shadow: 0 0 5px #000;
 }
