@@ -17,12 +17,14 @@ h1{
 }
 main{
     height: calc(100vh - 80px);
-    background-image: url(img);
+    background-image: url(../imagenes/IPG\ \ inicio.webp);
     background-size: cover;
     background-position: left;
     color: #fff;
 }
-.conta
+.container{
+
+}
 body{
     margin: 0;
     background-color: rgba(236, 240, 199, 0.425);
@@ -72,7 +74,6 @@ nav{
     width: auto;
     box-shadow: 0 0 20px;
     margin-top: 300px;
-
     margin-bottom: 150px;
 }
 .info{
