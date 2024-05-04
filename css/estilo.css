@@ -22,9 +22,7 @@ main{
     background-position: left;
     color: #fff;
 }
-.container{
 
-}
 body{
     margin: 0;
     background-color: rgba(236, 240, 199, 0.425);
@@ -88,7 +86,8 @@ nav{
 .form{
     font-family: sans-serif,monospace;
     color: darkolivegreen; 
-} .label{
+} 
+.label{
     font-family: sans-serif,monospace;
     color: darkolivegreen;
     text-transform: capitalize;
@@ -141,6 +140,21 @@ flex-wrap: wrap
     color: #fff;
     position: fixed;
     right: 40px;
+    bottom: 40px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 40px;
+    border-radius: 50%;
+    text-shadow: 0 0 5px #000;
+    box-shadow: 0 0 5px #000;
+}
+.subir{
+    height: 40px;
+    width: 40px;
+    background-color:  rgb(72, 85, 79);
+    color: #fff;
+    position: fixed;
+    right: 100px;
     bottom: 40px;
     text-align: center;
     font-size: 25px;
