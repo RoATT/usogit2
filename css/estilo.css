@@ -6,10 +6,6 @@
 h1{
     text-align: center;
     color: darkslategrey;
-    background-color: rgba(242, 245, 241, 0.973);
-    
-
-
     font-family: sans-serif,monospace;
     font-size:400% bold;
     font-variant: small-caps;
@@ -17,7 +13,7 @@ h1{
 }
 main{
     height: calc(100vh - 80px);
-    background-image: url(../imagenes/IPG\ \ inicio.webp);
+    background-image: url(/assets/imagenes/IPGinicio.webp);
     background-size: cover;
     background-position: left;
     color: #fff;
@@ -75,11 +71,11 @@ nav{
     margin-bottom: 150px;
 }
 .info{
-    background-image:url(assets/imagenes/golf-2704608_1280.jpg);
+    background-image:url(/assets/imagenes/golf-2704608_1280.jpg);
     background-position:center center;
     background-repeat:no-repeat;
     background-size: cover;
-    padding: 150px  50px;
+    padding: 30px 30px;
     width: 10px; height: 10px;
 }       
 
