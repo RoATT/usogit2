@@ -13,7 +13,7 @@ h1{
 }
 main{
     height: calc(100vh - 80px);
-    background-image: url(/assets/imagenes/IPGinicio.webp);
+    background-image: url(/assets/imagenes/fondo\ campo\ golf.png);
     background-size: cover;
     background-position: left;
     color: #fff;
@@ -60,6 +60,7 @@ nav{
     font-size:400% bold;
     font-variant: small-caps;
     font-weight: bolder;
+    color: darkslategrey;    
 }
 
 .container{
@@ -67,7 +68,7 @@ nav{
     height: auto;
     width: auto;
     box-shadow: 0 0 20px;
-    margin-top: 300px;
+    margin-top: 400px;
     margin-bottom: 150px;
 }
 .info{
